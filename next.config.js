@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath:'/webtest',
+  basePath:'/bakesforcraves',
   output: 'export',
   images:{
     unoptimized: true,
