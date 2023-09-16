@@ -5,9 +5,9 @@ const nextConfig = {
   // basePath:isProd ? '/bakesforcraves' :'',
   // assetPrefix: isProd ? '/bakesforcraves' :'',
   output: 'export',
-  // images:{
-  //   unoptimized: true,
-  // }
+  images:{
+    unoptimized: true,
+  }
   }
   
   module.exports = nextConfig
