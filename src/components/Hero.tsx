@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 const Hero = () => {
   return (
   <div className='relative min-h-screen'>
-    <Image className="lg:w-[580px] xl:w-[620px] h-auto absolute right-0 top-14 -z-10" src="./image1.png" width={1000} height={700} alt="imag"/>
+    <Image className="lg:w-[580px] xl:w-[620px] h-auto absolute right-0 top-16 -z-10" src="./image1.png" width={1000} height={700} alt="imag"/>
     <Navbar/>
     <div className='container h-[calc(100vh-180px)] grid items-center'>
         <div className='space-y-4 bg-[#ffffff98] w-fit p-4'>
