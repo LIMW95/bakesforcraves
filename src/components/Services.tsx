@@ -4,22 +4,22 @@ import ServiceCard from './ServiceCard'
 
 const servicesData=[
     {
-        img:"/1.png",
+        img:"./1.png",
         title:"Cake for any occasions",
         desc: "alksdfkiuisudf j jk sjkdfhsd jsdf hk",
     },
     {
-        img:"/2.png",
+        img:"./2.png",
         title:"Customization",
         desc: "alksdfkiuisudf j jk sjkdfhsd jsdf hk",
     },
     {
-        img:"/3.png",
+        img:"./3.png",
         title:"Quality",
         desc: "alksdfkiuisudf j jk sjkdfhsd jsdf hk",
     },
     {
-        img:"/4.png",
+        img:"./4.png",
         title:"Good and fair price",
         desc: "alksdfkiuisudf j jk sjkdfhsd jsdf hk",
     },

@@ -1,11 +1,13 @@
 /** @type {import('next').NextConfig} */
+
+// const isProd = process.env.NODE_ENV = 'production';
 const nextConfig = {
-  basePath:'/bakesforcraves',
-  assetPrefix: '/bakesforcraves/', // Add this line
+  // basePath:isProd ? '/bakesforcraves' :'',
+  // assetPrefix: isProd ? '/bakesforcraves' :'',
   output: 'export',
-  images:{
-    unoptimized: true,
-  }
+  // images:{
+  //   unoptimized: true,
+  // }
   }
   
   module.exports = nextConfig

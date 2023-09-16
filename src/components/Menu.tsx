@@ -6,31 +6,31 @@ import MenuCard from './MenuCard'
 
 const menuData=[
     {
-        img:"/cakecupcake.png",
+        img:"./cakecupcake.png",
         title:"Cake",
         desc:"erterbtertb",
         price:"Php 1",
     },
     {
-        img:"/cakecupcake.png",
+        img:"./cakecupcake.png",
         title:"Cake",
         desc:"ertbertbertb",
         price:"Php 12",
     },
     {
-        img:"/cakecupcake.png",
+        img:"./cakecupcake.png",
         title:"Cake",
         desc:"ertbertbertb",
         price:"Php 12",
     },
     {
-        img:"/cakecupcake.png",
+        img:"./cakecupcake.png",
         title:"Cake",
         desc:"ertbertbertert",
         price:"Php 23",
     },
     {
-        img:"/cakecupcake.png",
+        img:"./cakecupcake.png",
         title:"Cake",
         desc:"ertbertberb",
         price:"Php 12312",
@@ -63,7 +63,7 @@ const Menu = () => {
 
       <div className='grid lg:grid-cols-[35%,1fr] gap-10 pt-10 mx-20'>
         <div className='w-fit mx-auto'>
-            <Image className='w-[100%] max-w-[400px] h-auto' src="/cakecupcake.png" width={500} height={500} alt='cake'/>
+            <Image className='w-[100%] max-w-[400px] h-auto' src="./cakecupcake.png" width={500} height={500} alt='cake'/>
 
         </div>
         <div className='grid w-fit max-auto sm:grid-cols-2 gap-4'>

@@ -20,7 +20,7 @@ const Feature = () => {
     <div className='grid md:grid-cols-[1fr,1fr,1fr] gap-16 mt-10'>
         <div className='w-fit mx-auto self-end'>
             <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl' 
-            src='/cakecupcake.png' alt='' width={300} height={600}/>
+            src='./cakecupcake.png' alt='' width={300} height={600}/>
             <div className='space-y-4'>
                 <Dash/>
                 <h2 className='font-medium text-xl'> Customized Cakes</h2>
@@ -35,7 +35,7 @@ const Feature = () => {
 
         <div className='w-fit mx-auto'>
             <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl' 
-                src='/cakecupcake.png' alt='' width={300} height={600}/>
+                src='./cakecupcake.png' alt='' width={300} height={600}/>
             <div className='space-y-4'>
                 <Dash/>
                 <h2 className='font-medium text-xl'> Cupcakes </h2>
@@ -48,7 +48,7 @@ const Feature = () => {
 
         <div className='w-fit mx-auto'>
             <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl' 
-                src='/cakecupcake.png' alt='' width={300} height={600}/>
+                src='./cakecupcake.png' alt='' width={300} height={600}/>
             <div className='space-y-4'>
                 <Dash/>
                 <h2 className='font-medium text-xl'> Goodies </h2>

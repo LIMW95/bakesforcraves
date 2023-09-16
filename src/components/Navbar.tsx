@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className='container pt-6'>
      <div className='flex justify-between items-center'>
-        <Image src="/bfc_logo.png" width={75} height={75} alt='logo'/>
+        <Image src="./bfc_logo.png" width={75} height={75} alt='logo'/>
         <ul className='md:flex hidden gap-8 items-center font-semibold text-[14px]'>
             <li>Home</li>
             <li>About</li>
