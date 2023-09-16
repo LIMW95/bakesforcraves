@@ -1,9 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
-
 // next.config.js
 module.exports = {
-    target: 'serverless', // Ensure you have this line
+    exportPathMap: async function (defaultPathMap) {
+      return {
+        '/': { page: '/' },
+        // Add other routes as needed
+      };
+    },
     // Other Next.js configuration options
   };
   
