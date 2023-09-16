@@ -93,3 +93,25 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+        
+         # Additional steps for asset path configuration
+      - name: Configure asset paths
+        run: |
+          echo "NEXT_PUBLIC_BASE_PATH=/bakesforcraves" >> .env.local
+          echo "NEXT_PUBLIC_ASSET_PREFIX=/bakesforcraves" >> .env.local
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER_EMAIL: lim.wilson1796@outlook.com
+          GITHUB_USER_NAME: LIMW95
+
+      - name: Commit and push asset path changes
+        run: |
+          git config user.email "${GITHUB_USER_EMAIL}"
+          git config user.name "${GITHUB_USER_NAME}"
+          git add .env.local
+          git commit -m "Configure asset paths for GitHub Pages"
+          git push
+        env:
+          GITHUB_USER_EMAIL: ${{ secrets.GITHUB_USER_EMAIL }}
+          GITHUB_USER_NAME: ${{ secrets.GITHUB_USER_NAME }}
+  
